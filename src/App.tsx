@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function parseTime(time: string): number {
   const [h, m] = time.split(":").map(Number);
